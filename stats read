@@ -1,0 +1,9 @@
+import csv
+from tabulate import tabulate
+
+file = "/Users/colinathey/github_repos/pratice2/Summer_Stats.csv"
+
+with open(file, "r") as f:
+    content = f.read()
+
+print(content)
